@@ -1,8 +1,6 @@
 public class HelloWorld {
 
     public static void main(String[] args) {
-
-        // Prints "Hello, World" in the terminal window.
         System.out.println("Pham Quang Vinh" + '\t' + "22022648" +'\t' + "OOP" + '\t' + "VinhPhamAI" + '\t' + "22022648@vnu.edu.vn");
         int n = 9;
         while (n>0) {
