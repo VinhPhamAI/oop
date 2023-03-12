@@ -6,8 +6,7 @@ import static java.lang.Math.abs;
 public class RandomWalk {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = Integer.parseInt(args[0]);
         StdDraw.setScale(-n - 0.5, n + 0.5);
         StdDraw.clear(StdDraw.GRAY);
         StdDraw.enableDoubleBuffering();
