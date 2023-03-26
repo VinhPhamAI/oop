@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PieceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-26T18:58:06" hostname="DESKTOP-4C3FM1H" time="0.005">
+  <properties/>
+  <testcase name="test_fastRotation" classname="PieceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
