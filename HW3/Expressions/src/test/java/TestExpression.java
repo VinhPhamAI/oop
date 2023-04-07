@@ -69,7 +69,9 @@ public class TestExpression {
         Expression two = new Numeral(5);
         Expression sq = new Square(new Numeral(11));
         Expression mul = new Multiphication(one , two);
-
+        Expression add = new Addition(one, two);
+        Expression mul2 = new Multiphication(one, add);
+        assertEquals(14, mul2.evaluate());
         assertEquals(10, mul.evaluate());
     }
 }
