@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestExpression" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-04-07T08:11:22" hostname="DESKTOP-4C3FM1H" time="0.032">
+  <properties/>
+  <testcase name="testAdditionEvaluate()" classname="TestExpression" time="0.014"/>
+  <testcase name="testSquareEvaluate()" classname="TestExpression" time="0.001"/>
+  <testcase name="testNumeralEvaluate()" classname="TestExpression" time="0.001"/>
+  <testcase name="testAdditionWithParenthesesToString()" classname="TestExpression" time="0.007"/>
+  <testcase name="testAdditionToString()" classname="TestExpression" time="0.002"/>
+  <testcase name="testSquareToString()" classname="TestExpression" time="0.001"/>
+  <testcase name="testNumeralToString()" classname="TestExpression" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
