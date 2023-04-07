@@ -1,5 +1,5 @@
 
-public class Square extends Expression {
+public class Square implements Expression {
     private final Expression expression;
     public Square (Expression expression)
     {

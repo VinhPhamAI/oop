@@ -59,7 +59,7 @@ public class TestExpression {
         Expression two = new Square(new Numeral(3));
         Expression sub = new Subtraction(one, two);
         assertEquals(-7, sub.evaluate());
-        assertEquals("(2 - 3^2)", sub.toString());
+        assertEquals("(2 - 2)", sub.toString());
 
     }
     @Test

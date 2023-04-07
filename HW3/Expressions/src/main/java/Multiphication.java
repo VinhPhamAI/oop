@@ -1,19 +1,20 @@
-public class Multiphication extends BinaryExpression{
+public class Multiphication implements Expression{
     private Expression left;
     private Expression right;
     public Multiphication(Expression left, Expression right)
     {
-        super(left, right);
+        this.left = left;
+        this.right = right;
     }
     @Override
     public int evaluate()
     {
-        return getLeft().evaluate() * getRight().evaluate();
+        return left.evaluate() * right.evaluate();
     }
     @Override
     public String toString()
     {
-        return "(" + getLeft().toString() + " * " + getRight().toString()+ ")";
+        return "(" + left.toString() + " * " + right.toString()+ ")";
     }
 
 }
