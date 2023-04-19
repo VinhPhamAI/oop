@@ -2,7 +2,7 @@
 Pham Quang Vinh 
 
 HW1 : oop/HW1
-commit : update RandomWalk
+commit : Update RandomWalk.java
 
 Stack : oop/HW2/
 commit : Push Stack
