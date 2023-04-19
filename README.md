@@ -1,6 +1,9 @@
 22022648
 Pham Quang Vinh 
 
+HW1 : oop/HW1
+commit : update RandomWalk
+
 Stack : oop/HW2/
 commit : Push Stack
 
