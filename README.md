@@ -6,14 +6,17 @@ commit : Add files via upload
 HW3 Board : oop/HW3/src/main/java/
 commit : push Board Tetris
 
-Bank Account : oop/HW3/src/main/java/
+Bank Account : oop/HW3/
 commit : Push BankAccount
 
-Expression : oop/HW3/src/main/java/
+Expression : oop/HW3/
 commit : Expression II Sort with Interfaces
 
-Observer : oop/HW3/src/main/java/
+Observer : oop/HW3/
 commit : Lab Observer
 
-Lab 06 : oop/HW3/src/main/java/
+Lab 06 : oop/HW3/
 commit : Lab 06 : Proxy pattern
+
+Sudoku : oop/HW3/
+commit : final commit
