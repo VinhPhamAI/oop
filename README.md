@@ -15,3 +15,5 @@ commit : Expression II Sort with Interfaces
 Observer : oop/HW3/src/main/java/
 commit : Lab Observer
 
+Lab 06 : oop/HW3/src/main/java/
+commit : Lab 06 : Proxy pattern
