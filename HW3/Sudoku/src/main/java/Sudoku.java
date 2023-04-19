@@ -66,7 +66,19 @@ public class Sudoku {
         }
         return false;
     }
-
+    public static int[][] stringsToGrid(String ... strings)
+    {
+        int[][] ans = new int[9][9];
+        for (int i = 0;i < 9; i++)
+        {
+            String[] row = strings[i].split(" ");
+            for (int j = 0; j < 9; j++)
+            {
+                ans[i][j] = Integer.parseInt(row[j]);
+            }
+        }
+        return ans;
+    }
     @Override
     public String toString()
     {
