@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public class Sudoku {
     private int[][] grid;
 
@@ -57,6 +59,7 @@ public class Sudoku {
             if (isValidPosition(row, col, i))
             {
                 grid[row][col] = i;
+                System.out.println(this.toString());
                 if (solve()) return true;
                 else
                 {
@@ -66,7 +69,7 @@ public class Sudoku {
         }
         return false;
     }
-    public static int[][] stringsToGrid(String ... strings)
+    public static int[][] stringsToGrid(String ... strings) throws IOException
     {
         int[][] ans = new int[9][9];
         for (int i = 0;i < 9; i++)
@@ -74,7 +77,14 @@ public class Sudoku {
             String[] row = strings[i].split(" ");
             for (int j = 0; j < 9; j++)
             {
-                ans[i][j] = Integer.parseInt(row[j]);
+                try
+                {
+                    ans[i][j] = Integer.parseInt(row[j]);
+                }
+                catch (NumberFormatException ex)
+                {
+                    throw new IOException("Invalid input in string Sudoku game: " + '"' + row[j] +'"' , ex);
+                }
             }
         }
         return ans;
