@@ -2,7 +2,7 @@
 Pham Quang Vinh 
 
 Stack : oop/HW2/
-commit : Push Stack
+commit : Commit Stack
 
 SingleTon : oop/HW2
 commit : Push SingleTon
