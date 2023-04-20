@@ -42,10 +42,4 @@ public class StackTest {
         assertEquals("world", s);
 
     }
-    @Test
-    public void testIsEmpty2() {
-        assertTrue(stack.isEmpty());
-        stack.push("Hello");
-        assertFalse(stack.isEmpty());
-    }
 }
